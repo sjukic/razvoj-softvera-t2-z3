@@ -17,7 +17,6 @@ public class Controller {
                 najduza = rijec;
         }
         recenica = recenica.replace(najduza, najduza.toUpperCase());
-        System.out.println(recenica);
         ispisRecenice.setText(recenica);
     }
 }
